@@ -24,6 +24,8 @@ jobs:
 
       - name: 'testing print'  
         run: echo Ahmed
+      - name: 'print content folder'
+        run: ls
     
     
 
