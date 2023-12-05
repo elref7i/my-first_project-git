@@ -18,14 +18,11 @@ jobs:
 
 
     steps:
-      - name: 'testing Github action'  
-        run: pwd
+      -  uses: actions/checkout@v3
 
 
-      - name: 'testing print'  
-        run: echo Ahmed
-      - name: 'print content folder'
-        run: ls
+      -  name: "Login to Docker Hub"
+         run: docker login --username ahmedrefai -password dckr_pat_rta-0PzpNlcgAv_oCM8J7SyY7Uc
     
     
 
